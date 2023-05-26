@@ -80,6 +80,7 @@
 
 #![forbid(unsafe_code)]
 #![deny(clippy::all)]
+#![feature(slice_first_last_chunk)]
 
 pub mod tcp2udp;
 pub mod udp2tcp;
